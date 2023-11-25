@@ -1,7 +1,5 @@
 # Movie ticket booking (user management system)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
-
 ![homepage](https://github.com/ranjeetd8384/MovieTicketBookingWebsite-UsersManagementSystem-/assets/142582721/1d1dbe05-63b6-41b0-bc61-7cdca9756c05)
 ![Signup](https://github.com/ranjeetd8384/MovieTicketBookingWebsite-UsersManagementSystem-/assets/142582721/896cbc36-b238-49ab-a509-f8dd31073ccc)
 ![signin](https://github.com/ranjeetd8384/MovieTicketBookingWebsite-UsersManagementSystem-/assets/142582721/724c054a-12d6-40a9-806c-fd9349ca5799)
@@ -10,6 +8,51 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ![contact](https://github.com/ranjeetd8384/MovieTicketBookingWebsite-UsersManagementSystem-/assets/142582721/d65629e1-28b1-4729-8b05-c6a44947cc84)
 
 
+# Movie Ticket Booking Project (User Management System)
+
+## Overview
+This project is a Movie Ticket Booking System with a focus on user management. It's built using a technology stack that includes Spring Boot for the backend, Angular for the frontend, HTML, CSS, Java, Bootstrap, and MySQL for the database.
+
+## Features
+- **User Authentication:** The project includes signup and signin pages for user authentication.
+- **CRUD Operations:** All CRUD (Create, Read, Update, Delete) operations are implemented, allowing users to manage their profiles efficiently.
+- **Homepage:** A welcoming homepage providing an overview of the movie ticket booking system.
+- **About Page:** Information about the project and its purpose.
+- **Contact Page:** A contact page for users to get in touch with any queries or feedback.
+- **User List Page:** Displays a list of users with options for CRUD operations.
+- **SignIn Page:**
+- **SignUp Page:**
+
+## Technology Stack
+- **Backend:** Spring Boot, Java
+- **Frontend:** Angular, HTML, CSS, Bootstrap
+- **Database:** MySQL
+
+## Setup Instructions
+1. **Backend Setup:**
+   - Clone the repository.
+   - Navigate to the backend directory.
+   - Configure the `application.properties` file with your MySQL database details.
+   - Run the Spring Boot application.
+
+2. **Frontend Setup:**
+   - Navigate to the frontend directory.
+   - Run `npm install` to install the necessary dependencies.
+   - Update the API endpoints in the Angular services to match your backend.
+   - Run `ng serve` to start the Angular development server.
+
+3. **Database Setup:**
+   - Execute the SQL scripts provided in the `database-scripts` directory to set up the database schema.
+
+4. **Access the Application:**
+   - Open a web browser and go to `http://localhost:4200` to access the application.
+
+## Project Structure
+- `backend/`: Contains the Spring Boot backend code.
+- `frontend/`: Contains the Angular frontend code.
+- `database-scripts/`: SQL scripts for setting up the database.
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
 
 ## Development server
 
