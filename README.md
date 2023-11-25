@@ -20,8 +20,8 @@ This project is a Movie Ticket Booking System with a focus on user management. I
 - **About Page:** Information about the project and its purpose.
 - **Contact Page:** A contact page for users to get in touch with any queries or feedback.
 - **User List Page:** Displays a list of users with options for CRUD operations.
-- **SignIn Page:**
-- **SignUp Page:**
+- **SignIn Page**
+- **SignUp Page**
 
 ## Technology Stack
 - **Backend:** Spring Boot, Java
