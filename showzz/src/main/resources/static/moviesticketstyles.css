@@ -1,0 +1,237 @@
+/* Common Styles for All Pages */
+h1, h2 {
+    text-align: center;
+}
+
+#contact, header, nav ul {
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+    text-align: right;
+    
+}
+
+/* Page-Specific Styles */
+/* Page 1: Home */
+h2 {
+    color: #333;
+}
+
+/* Page 3: Login */
+#email, #password, #query {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+/* General Form Styles */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: gray;
+    border: 1px solid #605c5c;
+    border-radius: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Page 2: Registration */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Page 4: Contact Us */
+#query {
+    width: 100%;
+}
+
+.banner {
+    background-image: url("../static/images/movitheater.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    opacity: 0.75;
+}
+
+.submit:hover {
+    background-color: #29b948;
+    color: #a6bb33;
+}
+
+a.forgetpass {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #2980b9;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a.forgetpass:hover {
+    background-color: #2980b9;
+}
+
+/* Page 5: Movies Banners */
+div.moviesbanners {
+    body, h1, h2, p {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #9b9696;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .container {
+        width: 80%;
+        padding: 20px;
+        background-color: #89cdb6;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .movie {
+        width: 30%;
+        padding: 10px;
+        background-color: #b2d644;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+        display: block;
+    }
+
+    .movie img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .movie h2 {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    .movie p {
+        margin-top: 5px;
+    }
+}
+
+/* Add CSS styles for user tables */
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-table th, .user-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+}
+
+.user-table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+.user-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Additional styles for forms */
+#forms {
+    background-color: grey;
+}

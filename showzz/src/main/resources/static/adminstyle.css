@@ -1,0 +1,26 @@
+/* adminstyle.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+#sidebar {
+    background-color: #333;
+    color: #fff;
+}
+
+#sidebar a {
+    padding: 15px 25px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+}
+
+#sidebar a:hover {
+    background-color: #555;
+}
+
+#content {
+    padding: 15px;
+}

@@ -1,0 +1,23 @@
+nav{
+    height: 55px;
+}
+.navbar-nav {
+    margin-right: 20px;
+  }
+
+  .nav-item {
+    margin-right: 10px; 
+  }
+
+  .navbar-brand {
+    font-size: 24px; 
+  }
+
+  .nav-link {
+    font-size: 16px; 
+    color: #ffffff; 
+  }
+
+  .navbar-dark .navbar-toggler-icon {
+    border-color: #ffffff;
+  }

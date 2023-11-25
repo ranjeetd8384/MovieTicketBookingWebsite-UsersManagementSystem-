@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/moviesticketstyles.css">
+ 
+    <title>Home</title>
+</head>
+
+<body class="banner">
+
+    <div class="container">
+        <header class="text-center mt-4">
+            <h1 class="display-3">Showz</h1>
+        </header>
+        <nav class="text-right">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/login">SignIn</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/register">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/usermovies">Movies</a>
+                </li>
+            </ul>
+        </nav>
+        <section class="text-center mt-4">
+            <h2 class="display-4">Popular Movies</h2>
+            <div class="row">
+                <!-- Movie Banner 1 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="../static/images/captainamerica.jpg" class="card-img-top" alt="Captain America">
+                        <div class="card-body">
+                            <h5 class="card-title">CAPTAIN AMERICA</h5>
+                            <p class="card-text">Coming Soon to Theaters</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Movie Banner 2 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="../static/images/ironman.jpg" class="card-img-top" alt="Movie 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Movie 2</h5>
+                            <p class="card-text">Description of Movie 2.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Movie Banner 3 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="../static/images/spiderman.jpg" class="card-img-top" alt="Movie 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Movie 3</h5>
+                            <p class="card-text">Description of Movie 3.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="text-center mt-4">
+        <p>&copy; 2023 Showz by Ranjeet</p>
+    </footer>
+
+    <!-- Include Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

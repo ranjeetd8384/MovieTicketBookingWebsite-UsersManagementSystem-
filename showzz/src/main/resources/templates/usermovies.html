@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/moviesticketstyles.css">
+    <!-- th:href="@{/moviesticketstyles.css}" -->
+    <!-- <link rel="stylesheet" href="../static/moviesticketstyles.css" th:href="@{/moviesticketstyles.css}"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Movie Ticket Booking</title>
+</head>
+
+<body>
+    <div class="moviesbanners">
+        <header>
+            <h1>Movie Ticket Booking</h1>
+        </header>
+        <div class="container">
+            <h2>Now Showing</h2><br><br>
+            <div style="text-align: center;" class="movie-list">
+                <div class="movie">
+                    <img src="../static/images/captainamerica.jpg" th:src="@{../static/images/captainamerica.jpg}" /><br>
+                    <h3>CAPTAIN AMERICA</h3><br>
+                    <p style="text-align: center;">Showtimes: 2:00 PM, 5:00 PM, 8:00 PM</p><br>
+                </div>
+                <div class="movie">
+                    <img src="../static/images/ironman.jpg" th:src="@{../static/images/ironman.jpg}" /><br>
+                    <h3>IRONMAN</h3><br>
+                    <p>Showtimes: 3:00 PM, 6:00 PM, 9:00 PM</p><br>
+                </div>
+                <div class="movie">
+                    <img src="../static/images/spiderman.jpg" th:src="@{../static/images/spiderman.jpg}" /><br>
+                    <h3>SPIDERMAN</h3><br>
+                    <p>Showtimes: 1:00 PM, 4:00 PM, 7:00 PM</p><br>
+                </div>
+                <!-- Add more movies as needed -->
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    </div>
+</body>
+
+</html>

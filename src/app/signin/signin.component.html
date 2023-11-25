@@ -1,0 +1,30 @@
+<body>
+<br>
+<br>
+<div class="banner">
+    <!-- <h1>WELCOME TO SHOWZ</h1> -->
+    <h2>Login with Us</h2>
+
+    <form id="forms" action="/login" method="post">
+        <label class="labels" for="email">Email:</label>
+        <input type="email" id="email" name="email" class="form-control" required>
+
+        <label class="labels" for="password">Password:</label>
+        <input type="password" id="password" name="password" class="form-control" required>
+
+        <button class="btn btn-primary submit" type="submit">Login</button>
+        <a class="forgetpass" href="/updatePassword">Forgot Password?</a>
+    </form>
+
+    <!-- <p th:if="${error != null}" th:text="${error}"></p> -->
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2023 Showzz Movie Ticket Booking. All rights reserved.</p>
+</footer>

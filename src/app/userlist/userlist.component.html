@@ -1,0 +1,44 @@
+<div class="backimage">
+<br>
+<h1>USER DETAILS</h1>
+<div class="container mt-5">
+  <table border="" class="table table-bordered table-striped mt-3">
+    <thead class="thead-dark">
+      <tr>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Email</th>
+        
+        <th>Phone</th>
+        <th>Password</th>
+        <!-- <th>Website</th>
+        <th class="col-md-3">Address</th>
+        <th class="col-md-3">Company</th> -->
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users">
+        <td>{{ user.name }}</td>
+        <td>{{ user.gender }}</td>
+        <td>{{ user.email }}</td>
+        
+        <td>{{ user.phone }}</td>
+        <td>{{ user.password }}</td>
+        <!-- <td>{{ user.website }}</td>
+        <td>{{ user.address | json}}</td>
+        <td>{{ user.company | json}}</td> -->
+        <td>
+            <button (click) = "updateUser(user.id)" class = "btn btn-info"> Update</button>
+            <button (click) = "deleteUser(user.id)" class = "btn btn-danger" style="margin-left: 10px"> Delete</button>
+            <button (click) = "userDetails(user.id)" class = "btn btn-info" style="margin-left: 10px"> View</button>
+        </td>
+
+      </tr>
+    </tbody>
+  </table>
+</div>
+<footer class="bg-dark text-white text-center py-3">
+  <p>&copy; 2023 Showzz Movie Ticket Booking. All rights reserved.</p>
+</footer>
+</div>

@@ -1,0 +1,38 @@
+.card {
+    height: 100%;
+}
+body {
+    margin: 0; 
+    padding: 0;
+}
+
+.backimg {
+    
+    background-color: #f0f0f0; 
+}
+
+.banner {
+    
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.XxSlxXwPxbyRz67twErK1gHaEK&pid=Api&rs=1&c=1&qlt=95&h=180'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    padding: 20px;
+    box-sizing: border-box; 
+    color: white; 
+}
+
+.carousel-item img {
+   
+    width: 100%;
+    height: auto;
+}
+
+.carousel-inner {
+    max-width: 800px; 
+    margin: auto;
+}
+
+.bg-dark {
+    
+    background-color: #343a40;
+}

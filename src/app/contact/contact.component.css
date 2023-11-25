@@ -1,0 +1,63 @@
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+ }
+body {
+    background-color: gray;
+}
+
+div {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: gray;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.submit {
+    padding: 10px;
+    background-color: black;
+    color: gray;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #0056b3;
+}
+.backimg{
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    background-image: url('http://d279m997dpfwgl.cloudfront.net/wp/2019/12/Arclight-inside-1000x667.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    filter: alpha(opacity=70);
+}

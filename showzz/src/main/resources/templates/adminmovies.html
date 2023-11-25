@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Movies</title>
+</head>
+<body>
+    <h1>Admin Movies</h1>
+
+    <h2>Movie List</h2>
+    <ul id="movie-list">
+        <!-- Display the list of movies here -->
+    </ul>
+
+    <!-- Add New Movie Form -->
+    <h2>Add New Movie</h2>
+    <form id="add-movie-form" action="/adminmovies" method="post">
+        <input type="text" name="movieName" placeholder="Movie Name" required>
+        <input type="text" name="releaseDate" placeholder="Release Date" required>
+        <input type="text" name="director" placeholder="Director" required>
+        <input type="text" name="actor" placeholder="Actor" required>
+        <input type="text" name="actress" placeholder="Actress" required>
+        <input type="text" name="details" placeholder="Details" required>
+        <button type="submit">Add Movie</button>
+    </form>
+
+    <!-- Update Movie Form -->
+    <h2>Update Movie</h2>
+    <form id="update-movie-form" action="/adminmovies" method="post">
+        <input type="text" name="movieName" placeholder="New Movie Name" required>
+        <button type="submit">Update Movie</button>
+    </form>
+
+    <!-- Delete Movie Form -->
+    <h2>Delete Movie</h2>
+    <form id="delete-movie-form" action="/adminmovies" method="post">
+        <input type="number" name="movieId" placeholder="Movie ID to Delete" required>
+        <button type="submit">Delete Movie</button>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+</html>
+

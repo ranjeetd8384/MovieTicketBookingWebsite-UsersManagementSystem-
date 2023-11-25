@@ -1,0 +1,26 @@
+body {
+    background-color: white; 
+    padding: 60px;
+}
+
+.details-container {
+    border: 2px solid black; 
+    border-radius: 8px; 
+    padding: 20px;
+    margin: auto; 
+    max-width: 400px; 
+    margin-top: 60px;
+    /* height: 100vh; */
+    background-color: #fff;
+}
+
+label {
+    font-weight: bold;
+}
+
+h3 {
+    color: #007bff; 
+    text-align: center; 
+}
+
+     

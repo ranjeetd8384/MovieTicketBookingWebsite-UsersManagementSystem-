@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    color: white;
+}
+.backimage{
+    margin: 0;
+    padding: 0;
+    background-image: url('https://media.timeout.com/images/103950554/image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    filter: alpha(opacity=70);
+}

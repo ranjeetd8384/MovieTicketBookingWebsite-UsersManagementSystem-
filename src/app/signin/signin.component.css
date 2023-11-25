@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('http://d279m997dpfwgl.cloudfront.net/wp/2019/12/Arclight-inside-1000x667.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    filter: alpha(opacity=70);
+  
+  
+  }
+div {
+    background-color: gray;
+}
+
+.banner {
+    text-align: center;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:gray;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: white;
+}
+
+.labels {
+    align-items: left;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.submit {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #0056b3;
+}
+
+.forgetpass {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.forgetpass:hover {
+    text-decoration: underline;
+}

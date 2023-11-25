@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.backimage {
+   
+    background-color: lightgray;
+
+    margin: 0;
+    padding: 0;
+    background-image: url('https://3.bp.blogspot.com/-9NiFhOvZQd0/U0jFBbuu7bI/AAAAAAAAGGg/lzmWIr58FTo/s1600/tom-and-jerry-laptop-wallpapers.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    filter: alpha(opacity=70);
+    color: black;
+}
+
+.container {
+    
+    max-width: 600px;
+   
+    margin: auto;
+  
+    padding: 20px;
+}
+
+.bg-dark {
+    
+    background-color: white;
+}

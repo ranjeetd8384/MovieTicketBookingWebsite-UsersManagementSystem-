@@ -1,0 +1,44 @@
+<body>
+
+  <div class="container">
+      <form (ngSubmit)="onSubmit()" #updateForm="ngForm">
+          <h2 class="text-center mb-4">Update User Information</h2>
+
+          <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" [(ngModel)]="user.name" class="form-control" required>
+          </div>
+
+          <div class="form-group">
+              <label for="gender">Gender:</label>
+              <select id="gender" name="gender" [(ngModel)]="user.gender" class="form-control" required>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+              </select>
+          </div>
+
+          <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" [(ngModel)]="user.email" class="form-control" required>
+          </div>
+
+          <div class="form-group">
+              <label for="phone">Phone:</label>
+              <input type="text" id="phone" name="phone" [(ngModel)]="user.phone" class="form-control" required>
+          </div>
+
+          <div class="form-group">
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" [(ngModel)]="user.password" class="form-control" required>
+          </div>
+
+          <button type="submit" [disabled]="!updateForm.valid" class="btn btn-primary btn-block">Update</button>
+      </form>
+  </div>
+
+  
+
+</body>
+<footer class="bg-dark text-white text-center py-3">
+  <p>&copy; 2023 Showzz Movie Ticket Booking. All rights reserved.</p>
+</footer>
